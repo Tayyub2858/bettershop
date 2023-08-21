@@ -1,0 +1,77 @@
+:root {
+    --blue: #66b9f0;
+    --yellow: #faca28;
+    --gradient: linear-gradient(to right, #162a47 0%, #faca28 100%);
+    --leftgradient: linear-gradient(to right, #faca28 0%, #162a47 100%);
+    --smallText: #a8a8a8;
+    --mediumText: #dfdfdf;
+    --buttonColor: #3d3d3d;
+    --backgroundColor: #f9f9f9;
+    --white: #ffffff;
+    --dark: #252525;
+    --grey: #4a4a4a;
+    --endFooter: #2b2b2b;
+    --textColor : #162a47;
+    --logocolor:#faca2b;
+  }
+   
+  .drawaradmin-nav{
+    background: var(--endFooter);
+     padding: 1% 1% 1% 1%;  
+     color: var(--white);
+ }
+ .component-title{
+     font-size: xx-large;
+    margin-left: 40%;   
+ }
+ .admin-sidebar{
+    position: fixed;
+    top: 0;
+    width: 15%;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    padding-left: 0.5%;
+    padding-right: 1%;
+ }
+ .sidebar-row{
+     width:100%;
+     height: 50px;
+     list-style-type: none;
+     display: flex;
+     flex-direction: row;
+     color: var(--smallText);
+     align-items: center;
+     font-family: Arial, Helvetica, sans-serif;
+     color: black;
+     border-radius: 10px;
+     text-decoration: none;
+     background-color: white;
+     margin-top: 5%;
+ }
+ .sidebar-row:hover{
+     cursor: pointer;
+     background-color: var(--grey);
+     color: var(--white);
+     border-radius: 10px;
+ }
+ .sidebar-icons{
+    margin-left: 10%;
+     font-size: 25px;
+ }
+ .sidebar-title{
+    text-align: center;
+    margin-left: 10%;
+ }
+ .bottom-txt{
+   
+ }
+ 
+ 
+ @media only screen and (max-device-width: 768px){
+     .component-title{
+         font-size: medium;
+         text-align: center;
+         margin: 25%;
+     }
+ }
